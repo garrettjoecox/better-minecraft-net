@@ -1,0 +1,25 @@
+{
+  "name": "better-minecraft-net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.4.4",
+    "angular-route": "^1.4.4",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettjoecox/better-minecraft-net.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrettjoecox/better-minecraft-net/issues"
+  },
+  "homepage": "https://github.com/garrettjoecox/better-minecraft-net#readme"
+}
