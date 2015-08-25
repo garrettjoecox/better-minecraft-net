@@ -69,12 +69,17 @@
   transition: transform 250ms ease;
 }
 
+.social .facebook {
+  flex: 0 1 auto;
+}
+
 .social .facebook iframe {
-  flex: 0 0 214px;
+  flex: 0 1 20em;
 }
 
 .social .tumblr .tumblrFeedContainer {
-  flex: 0 0 214px;
+  min-width: 100%;
+  flex: 0 1 20em;
   background: url('/better-minecraft-net/assets/stone_diorite.png');
 }
 
@@ -96,7 +101,8 @@
 }
 
 .social .twitter .twitterFeedContainer {
-  flex: 0 0 214px;
+  min-width: 100%;
+  flex: 0 1 20em;
   background: url('/better-minecraft-net/assets/stone_granite.png');
 }
 
