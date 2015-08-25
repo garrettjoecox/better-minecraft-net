@@ -1,0 +1,118 @@
+
+.main .left {
+  flex: 2;
+  padding: 1em;
+}
+
+.main .left iframe {
+  min-height: 20em;
+}
+
+.main .right {
+  align-items: center;
+  padding: 1em;
+}
+
+.main .right a {
+  min-width: 70%;
+  margin-top: 1em;
+  color: #FFF;
+  text-shadow: 1px 1px #333;
+  text-align: center;
+  padding: 0.7em 0;
+  border-radius: 3px;
+}
+
+.main .right a.orange {
+  background: linear-gradient(to bottom, #f5a22b, #d36d28);
+}
+
+.main .right a.blue {
+  background: linear-gradient(to bottom, #32bfbf, #43666d);
+}
+
+.main .right a.green {
+  background: linear-gradient(to bottom, #39b54a, #36743d);
+}
+
+.main .right a.orange:hover {
+  background: linear-gradient(to bottom, #d36d28, #f5a22b);
+}
+
+.main .right a.blue:hover {
+  background: linear-gradient(to bottom, #43666d, #32bfbf);
+}
+
+.main .right a.green:hover {
+  background: linear-gradient(to bottom, #36743d, #39b54a);
+}
+
+.main .right img {
+  height: 20em;
+}
+
+.social > * {
+  padding: 1em;
+  align-items: center;
+}
+
+.social .socialTitle {
+  vertical-align: middle;
+  font-size: 1.4em;
+  color: #FFF;
+  margin-bottom: 1em;
+  transition: transform 250ms ease;
+}
+
+.social .socialTitle:hover {
+  transform: scale(1.1);
+  transition: transform 250ms ease;
+}
+
+.social .facebook iframe {
+  flex: 0 0 214px;
+}
+
+.social .tumblr .tumblrFeedContainer {
+  flex: 0 0 214px;
+  background: url('/assets/stone_diorite.png');
+}
+
+.social .tumblr .tumblrFeedContainer .tumblrFeed {
+  overflow: auto;
+  box-shadow: inset 0 0 2em #000000;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.social .tumblr .tumblrFeedContainer .tumblrFeed .post {
+  display: block;
+  padding: 0.6em 1em;
+  transition: background-color 250ms ease;
+}
+
+.social .tumblr .tumblrFeedContainer .tumblrFeed .post:hover {
+  transition: background-color 250ms ease;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.social .twitter .twitterFeedContainer {
+  flex: 0 0 214px;
+  background: url('/assets/stone_granite.png');
+}
+
+.social .twitter .twitterFeedContainer .twitterFeed {
+  overflow: auto;
+  box-shadow: inset 0 0 2em #000000;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.social .twitter .twitterFeedContainer .twitterFeed .tweet {
+  display: block;
+  padding: 0.6em 1em;
+  transition: background-color 250ms ease;
+}
+
+.social .twitter .twitterFeedContainer .twitterFeed .tweet:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 250ms ease;
+}

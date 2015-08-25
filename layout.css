@@ -1,0 +1,92 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+.outernav {
+  z-index: 2;
+  box-shadow: 0 0 3em 0em #000;
+  flex: 0 0 4em;
+  background: url('/assets/dirt.png');
+}
+
+.outernav .nav {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+}
+
+.outernav .nav img.logo {
+  margin: 0.7em;
+  height: 2.4em;
+  width: auto;
+}
+
+.outernav .nav a.navItem {
+  white-space: nowrap;
+  font-weight: bold;
+  color: #FFF;
+  padding: 1.5em 0.5em;
+  text-decoration: none;
+  transition: background-color 250ms ease;
+}
+
+.outernav .nav .navItem:last-child {
+  margin-right: 5px;
+}
+
+.outernav .nav a.navItem:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 250ms ease;
+}
+
+.outercontent {
+  z-index: 1;
+  max-height: calc(100vh - 4em);
+  overflow: auto;
+  background: url('/assets/stone.png');
+}
+
+.outercontent .content {
+  color: #AAA;
+  padding: 1em;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.flex.row {
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+}
+
+.flex.col {
+  -webkit-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
+  color: #AAF;
+}
