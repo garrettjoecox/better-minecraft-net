@@ -75,7 +75,7 @@
 
 .social .tumblr .tumblrFeedContainer {
   flex: 0 0 214px;
-  background: url('/assets/stone_diorite.png');
+  background: url('/better-minecraft-net/assets/stone_diorite.png');
 }
 
 .social .tumblr .tumblrFeedContainer .tumblrFeed {
@@ -97,7 +97,7 @@
 
 .social .twitter .twitterFeedContainer {
   flex: 0 0 214px;
-  background: url('/assets/stone_granite.png');
+  background: url('/better-minecraft-net/assets/stone_granite.png');
 }
 
 .social .twitter .twitterFeedContainer .twitterFeed {
