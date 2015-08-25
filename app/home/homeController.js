@@ -5,13 +5,13 @@ function homeController($http) {
 
   var self = this;
 
-  $http.get('http://mc.garrettcox.io:9000/api/feeds/tumblr')
+  $http.get('http://mc.garrettcox.io:9000/api/mojang')
     .then(function(response) {
-      self.posts = response.data.posts;
+      self.posts = response.data;
     });
 
-  $http.get('http://mc.garrettcox.io:9000/api/feeds/twitter')
+  $http.get('http://mc.garrettcox.io:9000/api/twitter')
     .then(function(response) {
-      self.tweets = response.data.statuses;
+      self.tweets = response.data;
     });
 }

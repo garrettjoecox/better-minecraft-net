@@ -15,10 +15,10 @@
 </div>
 <div ng-controller="homeController as ctrl" class="social flex1 flex row">
   <div class="tumblr flex1 flex col">
-    <a href="http://mcupdate.tumblr.com/" class="socialTitle"><span class="fa fa-tumblr-square"></span> Update News</a>
+    <a href="http://mojang.com" class="socialTitle"><span class="fa fa-plus-square"></span> Update News</a>
     <div class="tumblrFeedContainer flex col">
       <div class="tumblrFeed flex1">
-        <a ng-repeat="post in ctrl.posts" href="{{post['url-with-slug']}}" class="post">{{post['regular-title']}}</a>
+        <a ng-repeat="post in ctrl.posts" href="{{post.link}}" class="post">{{post.title}}</a>
       </div>
     </div>
   </div>
