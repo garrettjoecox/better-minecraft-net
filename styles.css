@@ -11,7 +11,7 @@ html, body {
   z-index: 2;
   box-shadow: 0 0 3em 0em #000;
   flex: 0 0 4em;
-  background: url('assets/dirt.png');
+  background: url('/assets/dirt.png');
 }
 
 .outernav .nav {
@@ -46,7 +46,7 @@ html, body {
   z-index: 1;
   max-height: calc(100vh - 4em);
   overflow: auto;
-  background: url('assets/stone.png');
+  background: url('/assets/stone.png');
 }
 
 .outercontent .content {
@@ -132,7 +132,7 @@ html, body {
 
 .tumblrFeedContainer {
   min-width: 100%;
-  background: url('assets/stone_diorite.png');
+  background: url('/assets/stone_diorite.png');
 }
 
 .tumblrFeed {
@@ -151,14 +151,13 @@ html, body {
 
 .tumblrFeed .post:hover {
   transition: all 250ms ease;
-  padding-left: 1.1em;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
 .twitterFeedContainer {
   min-width: 100%;
   max-height: 214px;
-  background: url('assets/stone_granite.png');
+  background: url('/assets/stone_granite.png');
 }
 
 .twitterFeed {
