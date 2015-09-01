@@ -11,7 +11,7 @@ html, body {
   z-index: 2;
   box-shadow: 0 0 3em 0em #000;
   flex: 0 0 4em;
-  background: url('/better-minecraft-net/assets/dirt.png');
+  background: url('./assets/dirt.png');
 }
 
 .outernav .nav {
@@ -46,7 +46,7 @@ html, body {
   z-index: 1;
   max-height: calc(100vh - 4em);
   overflow: auto;
-  background: url('/better-minecraft-net/assets/stone.png');
+  background: url('./assets/stone.png');
 }
 
 .outercontent .content {
